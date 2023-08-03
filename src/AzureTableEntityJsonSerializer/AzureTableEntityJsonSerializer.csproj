@@ -9,11 +9,11 @@ In addition, the original converter logic for parsing the Timestamp loses the Of
     <Authors>The Byte Stuff, LLC</Authors>
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
     <Copyright>2023</Copyright>
-    <PackageLicenseUrl>https://github.com/TheByteStuff/AzureTableEntitySerializer/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageIconUrl>https://github.com/TheByteStuff/AzureTableEntitySerializer/blob/master/src/DynamicTableEntityJsonSerializer/CardFront_Clip.png</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/TheByteStuff/AzureTableEntitySerializer</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/TheByteStuff/AzureTableEntityJsonSerializer/blob/main/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://github.com/TheByteStuff/AzureTableEntityJsonSerializer/blob/main/src/AzureTableEntityJsonSerializer/CardFront_Clip.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/TheByteStuff/AzureTableEntityJsonSerializer</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/TheByteStuff/AzureTableEntitySerializer</RepositoryUrl>
+    <RepositoryUrl>https://github.com/TheByteStuff/AzureTableEntityJsonSerializer</RepositoryUrl>
     <PackageTags>Azure,Table,Azure Table Storage,Azure.Table.Entity,Json,Serializer</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>

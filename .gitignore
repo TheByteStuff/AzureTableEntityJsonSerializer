@@ -6,6 +6,6 @@ src/.axoCover
 src/.vs
 src/AzureTableEntityJsonSerializer/bin
 src/AzureTableEntityJsonSerializer/obj
-src/AAzureTableEntityJsonSerializerXUnitTest/bin
-src/AAzureTableEntityJsonSerializerXUnitTest/obj
+src/AzureTableEntityJsonSerializerXUnitTest/bin
+src/AzureTableEntityJsonSerializerXUnitTest/obj
 *.cache
