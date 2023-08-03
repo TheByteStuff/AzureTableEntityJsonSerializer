@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTableEntityJsonSerializer", "AzureTableEntityJsonSerializer\AzureTableEntityJsonSerializer.csproj", "{8A794B8D-C110-4B4F-8DF9-8FDCF4EAFBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTableEntityJsonSerializerXUnitTest", "AzureTableEntityJsonSerializerXUnitTest\AzureTableEntityJsonSerializerXUnitTest.csproj", "{782B9675-13D0-40C3-B776-2BEF7D996CC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A794B8D-C110-4B4F-8DF9-8FDCF4EAFBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A794B8D-C110-4B4F-8DF9-8FDCF4EAFBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A794B8D-C110-4B4F-8DF9-8FDCF4EAFBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A794B8D-C110-4B4F-8DF9-8FDCF4EAFBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782B9675-13D0-40C3-B776-2BEF7D996CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782B9675-13D0-40C3-B776-2BEF7D996CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782B9675-13D0-40C3-B776-2BEF7D996CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782B9675-13D0-40C3-B776-2BEF7D996CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC9F7673-78DC-4829-BB3E-00C1E080B5E0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon>CardFront_Clip.ico</ApplicationIcon>
+    <Description>Based on the nuget package offered by DoguArslan (https://www.nuget.org/packages/DynamicTableEntityJsonSerializer) which uses Microsoft.WindowsAzure.Storage.Table and .Net Framework 4.5, this package is adapted from the original work to function using Azure.Data.Table which does not properly serialize/deserialize int32 and a broader .NetCore 2.1.
+
+In addition, the original converter logic for parsing the Timestamp loses the Offset and just returns the date and time.   Added a hack to include the offset in the Timestamp.</Description>
+    <Authors>The Byte Stuff, LLC</Authors>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <Copyright>2023</Copyright>
+    <PackageLicenseUrl>https://github.com/TheByteStuff/AzureTableEntitySerializer/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://github.com/TheByteStuff/AzureTableEntitySerializer/blob/master/src/DynamicTableEntityJsonSerializer/CardFront_Clip.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/TheByteStuff/AzureTableEntitySerializer</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/TheByteStuff/AzureTableEntitySerializer</RepositoryUrl>
+    <PackageTags>Azure,Table,Azure Table Storage,Azure.Table.Entity,Json,Serializer</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Data.Tables" Version="12.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
